@@ -1,4 +1,10 @@
-pip install nltk
+import subprocess
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+install('nltk')
+
 import streamlit as st
 import nltk
 nltk.download('wordnet')

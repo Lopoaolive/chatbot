@@ -1,1 +1,3 @@
+streamlit==0.88.0
 nltk==3.6.2
+# autres dépendances...
